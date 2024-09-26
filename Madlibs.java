@@ -11,6 +11,7 @@ public class Madlibs
         // madLibs = "Once upon a time in a <adjective> land, a <noun> <adverb> grew";
         // madLibs = "I don't like <noun>, and because I wanted to <verb> I ended up in <noun>.";
 
+        // doing the first one
         System.out.println("Enter a noun");
         int openingBracketIndex = madLibs.indexOf("<");
         int closingBracketIndex = madLibs.indexOf(">");
@@ -19,7 +20,7 @@ public class Madlibs
 
         String userInput = sc.nextLine();
 
-        System.out.println(madLibsOne + userInput);
+        System.out.println(madLibs.substring(0, openingBracketIndex) + userInput);
 
 
 
