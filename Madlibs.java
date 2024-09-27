@@ -8,8 +8,8 @@ public class Madlibs
         
         //MadLibs Strings
         String madLibs = "I went to the animal <noun>, the <plural noun> and the <number> beasts were there.";
-        // madLibs = "Once upon a time in a <adjective> land, a <noun> <adverb> grew";
-        madLibs = "I don't like <noun>, and because I wanted to <verb (not conjugated)> I ended up in <noun>.";
+        madLibs = "Once upon a time in a <adjective> land, a <noun> <adverb> grew";
+        //madLibs = "I don't like <noun>, and because I wanted to <verb (not conjugated)> I ended up in a <noun>.";
 
 
         //doing the first one
