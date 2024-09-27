@@ -11,18 +11,21 @@ public class Madlibs
         // madLibs = "Once upon a time in a <adjective> land, a <noun> <adverb> grew";
         // madLibs = "I don't like <noun>, and because I wanted to <verb> I ended up in <noun>.";
 
+        int openingBracketIndex1 = madLibs.indexOf("<") +1;
+        int closingBracketIndex1 = madLibs.indexOf(">");
+
         // doing the first one
-        System.out.println("Enter a noun");
-        int openingBracketIndex = madLibs.indexOf("<");
-        int closingBracketIndex = madLibs.indexOf(">");
-
-        String madLibsOne = madLibs.substring(openingBracketIndex, closingBracketIndex);
-
+        System.out.println("Enter a " + madLibs.substring(openingBracketIndex1, closingBracketIndex1));
         String userInput = sc.nextLine();
 
-        System.out.println(madLibs.substring(0, openingBracketIndex) + userInput);
+        String madLibsOne = madLibs.substring(openingBracketIndex1, closingBracketIndex1);
 
+        String entireMadLib = madLibs.substring(0, openingBracketIndex1) + userInput;
 
+        int openingBracketIndex2 = madLibs.indexOf("<", openingBracketIndex1 + 1);
+        int closingBracketIndex2 = madLibs.indexOf(">", closingBracketIndex1 + 1);
+
+        //doing the second one
 
     }
 }
