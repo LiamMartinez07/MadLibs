@@ -7,6 +7,6 @@ Milestone chart:
     Creating the first print statement and asking for user input. Completing the first indexOf. Estimated time: 30 minutes. Actual time: 20 minutes.
     Creating the second and third sections. Estimated time: 30 minutes. Actual time: 1.5 hours. 
     Finishing the program and printing the entire madLib, then testing. Estimated time: 30 minutes. Actual time: 1 hour.
-My initial design notes were not very detailed, because when I was designing the program I didn't know about substrings or indexOf statements yet, 
+My initial design notes were not very detailed because when I was designing the program I didn't know about substrings or indexOf statements yet, 
 but part of my planning entailed figuring out what my personal mad lib was going to be and thinking about how I would get the index of < & > even
 though I had already found them previously in the sentence.
